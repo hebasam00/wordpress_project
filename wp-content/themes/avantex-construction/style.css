@@ -1,0 +1,196 @@
+/*
+Theme Name: Avantex Construction
+Theme URI: https://wpfrank.com/wordpress-themes/avantex/
+Template: avantex
+Author: WP Frank
+Author URI: https://wpfrank.com/
+Description: Avantex is made to be the fastest. with the latest mechanisms running in advanced website designs, with high-quality code optimized for performance. the theme perfectly suited for Business, Blog, Business Promotion, Market, Sports, Electrician, Industries, Newspaper, Freelancer, Lawyer, Architect, Appointment, Cooming Soon, Posts Website, Education, Gaming Hub, School, SEO, Medical, Construction, Wedding, Music, Food, Cafe, Hotel, Fashion, Online Shop, Interior Design, Building Design, Decoration, Construction, Corporate, Agency, Pet Care, Beauty &amp; Spa Salons, Photography, Gym Fitness, Travel Agency, and approx all category frontend can be easily developed with the supported environment, You will have lots of options to consider. This theme supports the best Elementor page builder to create, edit and updates page designs as per the requirement. As well as it has some exotic features like customization and clean code, advanced typography, sticky menu, logo upload, header image, Latest Bootstrap framework, built with SEO in mind, and theme info area besides being Mobile-ready, also translation ready (WPML, Polylang) and it's built to be beautiful on all screen sizes with multiple homepage sections like slider, service, info, callout, testimonial.Theme Avantex is fully responsive and compatible with popular WordPress plugins like Page Builder, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, Gutenberg, Block-Enabled, WooCommerce, WPML, Yoast SEO, Jetpack, Contact Form 7, Mailchimp for WordPress, bbPress, Demo Importer, WPForms and more. Whether you’re running an online shopping store or setting up your website, Basically Avantex fulfills approx all your website needs, guiding you through the digital landscape and ensuring you never go astray.
+Tags: one-column,two-columns,four-columns,right-sidebar,flexible-header,custom-background,custom-header,custom-menu,editor-style,featured-images,footer-widgets,post-formats,theme-options,threaded-comments,rtl-language-support,translation-ready,full-width-template,custom-logo,blog,e-commerce,portfolio
+Version: 0.0.8
+Tested up to: 6.3.1
+Requires PHP: 5.4
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: avantex-construction
+
+*/
+
+.funfact i.funfact-icon {
+    line-height: 90px !important;
+ }
+ .site-content .full-content {
+    padding: 0;
+    margin-left: 0;
+}
+
+.funfact-inner .description {
+ font-size: 27px !important;
+ padding-top: inherit !important;
+     
+}
+
+.blog-head::before {
+    opacity: 0.6;
+}
+
+.comment-date a:hover{
+    color: var(--thm-black);
+}
+
+.comment p a:hover{
+    color: var(--thm-black);
+}
+
+.blog-grid .news-date {
+    position: absolute;
+    top: -36px;
+    left: 0;
+    background-color: var(--thm-primary);
+    padding: 0 20px;
+}
+
+.blog-grid .entry-meta {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 11px;
+    font-size: 12px;
+    color: var(--thm-gray);
+    font-weight: 600;
+    text-transform: var(--thm-text-transform);
+}
+
+
+.blog-grid .post {
+    margin: 0 0 100px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.blog-grid .post .post-thumbnail {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: all 1000ms ease-out 0s;
+}
+
+.blog-grid .post img {
+    width: 100%;
+    transform: scale(1);
+    transition: all 500ms ease;
+    max-width: 100%;
+}
+
+.blog-grid .full-content {
+    position: relative;
+    background-color: var(--thm-black);
+    display: block;
+    margin-top: 0;
+    margin-left: 40px;
+    padding: 30px 36px 10px;
+    transition: all 500ms ease;
+}
+
+.blog-grid .entry-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: var(--thm-letter-space-small);
+    text-transform: var(--thm-text-transform);
+}
+
+.blog-grid .entry-content {
+    font-size: 17px;
+    margin: 0;
+    padding-bottom: 14px;
+}
+
+.blog-grid .entry-meta .byline,
+.blog-grid .entry-meta .author a {
+    color: var(--thm-base);
+}
+
+.blog-grid .entry-title a {
+    color: var(--thm-base);
+    transition: all 500ms ease;
+}
+
+.blog-grid .entry-title a:hover {
+    color: var(--thm-primary);
+}
+
+.blog-grid .entry-content a {
+    position: relative;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: var(--thm-text-transform);
+    color: var(--thm-base);
+    transition: all 500ms ease;
+    letter-spacing: var(--thm-letter-space-big);
+}
+
+.blog-grid .entry-content a:hover {
+    color: var(--thm-primary);
+}
+
+.blog-grid .entry-content .more-link:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 10px;
+    content: "";
+    background-color: currentColor;
+    transition: width 500ms ease;
+}
+
+.blog-grid .entry-content .more-link:hover::before {
+    width: 100%;
+}
+
+.blog-grid .entry-meta {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 11px;
+    font-size: 12px;
+    color: var(--thm-gray);
+    font-weight: 600;
+    text-transform: var(--thm-text-transform);
+}
+
+.blog-grid .entry-meta .byline {
+    color: var(--thm-base);
+    text-transform: none;
+}
+.blog-grid .entry-meta .author a {
+    color: var(--thm-primary);
+    text-transform: var(--thm-text-transform);
+}
+.blog-grid .news-date {
+    position: absolute;
+    top: -36px;
+    left: 0;
+    background-color: var(--thm-primary);
+    padding: 0 20px;
+}
+
+.blog-grid .news-date span {
+    font-size: 12px;
+    color: var(--thm-base);
+    font-weight: 700;
+    text-transform: var(--thm-text-transform);
+    letter-spacing: var(--thm-letter-space-big);
+    margin: 0;
+}
+
+ul.primary-menu {
+	flex-wrap: wrap;
+}
